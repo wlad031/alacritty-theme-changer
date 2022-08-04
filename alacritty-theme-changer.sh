@@ -15,5 +15,5 @@ fi
 
 echo "Changing Alacritty theme from $old_theme to $new_theme..."
 ALACRITTY_DIR="$HOME/.config/alacritty"
-sed -i '' "s/\*$old_theme/\*$new_theme/g" "$ALACRITTY_DIR/alacritty.yml"
+sed -i '' "s/\*$old_theme/\*$new_theme/g" "$ALACRITTY_DIR/colors.yml"
 
